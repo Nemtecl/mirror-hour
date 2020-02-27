@@ -10,15 +10,3 @@ exports.isMirrorHour = function() {
     return false;
 }
 
-moment.locale('fr');
-const now = moment();
-
-var time = new Date();
-var secondsRemaining = (60 - time.getSeconds()) * 1000;
-
-setTimeout(function() {
-    console.log('Mirror Hour ? ⏱ : ' + (this.isMirrorHour ? 'Yes' : 'No'))
-    setInterval(function() {
-        console.log('Mirror Hour ? ⏱ : ' + (this.isMirrorHour ? 'Yes' : 'No'))
-    }, 60000);
-}, secondsRemaining);
