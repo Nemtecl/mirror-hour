@@ -1,0 +1,27 @@
+{
+  "name": "mirror-hour",
+  "version": "1.0.0",
+  "description": "A module to check if the current hour is a mirror hour (22:22, 00:00, 12:12...)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nemtecl/mirror-hour.git"
+  },
+  "keywords": [
+    "mirror",
+    "hour"
+  ],
+  "author": "Nemtecl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nemtecl/mirror-hour/issues"
+  },
+  "homepage": "https://github.com/Nemtecl/mirror-hour#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
